@@ -36,7 +36,9 @@ class Team extends React.Component<TeamProps> {
         <img />
         <h2>School: {oneTeam.school}</h2>
         <h3>Mascot: {oneTeam.name}</h3>
-        <h3>Location: {oneTeam.city}, {oneTeam.state}</h3>
+        <h3>
+          Location: {oneTeam.city}, {oneTeam.state}
+        </h3>
       </div>
     );
   }
